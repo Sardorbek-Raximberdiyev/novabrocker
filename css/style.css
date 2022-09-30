@@ -1,0 +1,54 @@
+:root {
+  --text-color: #4f596a;
+  --headeing-color: #272d4e;
+  --title-color: #001a49;
+  --red-color: #eb242a;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+  color: var(--text-color);
+}
+
+/* VISUALLY-HIDDEN */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+  text-align: center;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+/* SITE HEADER */
